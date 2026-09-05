@@ -1,0 +1,5 @@
+# The systemd unit and the avahi service file are copied straight onto a Linux
+# machine. A carriage return in either fails in ways that read as nonsense, so
+# everything in this repository is stored and checked out with LF endings,
+# whatever platform it is cloned on.
+* text=auto eol=lf

@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone='no'?><!--*-nxml-*-->
+<!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+
+<!-- Announces the page over mDNS, so the machine is found by name and the page
+     with it. Install as /etc/avahi/services/acoustic-detection.service; avahi
+     picks up the directory without being restarted. %h is the hostname. -->
+
+<service-group>
+  <name replace-wildcards="yes">%h</name>
+  <service>
+    <type>_http._tcp</type>
+    <port>80</port>
+  </service>
+</service-group>

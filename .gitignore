@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+# The dismantled earlier repository, kept beside this one for reference only.
+Acoustic-Detection-old/
+
+# Working copy of the GitHub wiki. Pushed to the wiki remote, not to this repository.
+.wiki-staging/
